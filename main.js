@@ -36,3 +36,4 @@ console.log("\n\nYour journey will take you through the wildness of the American
 for (const areas of journey) {
     console.log(`\t* ${areas}`)
 }
+//testing gitbash
