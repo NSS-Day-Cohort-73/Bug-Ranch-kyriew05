@@ -91,7 +91,7 @@ Your journey will take you through the wildness of the American Midwest and acro
    }
    ```
    Explain this code with your best vocabulary.
-   > Your answer here
+   > This line of code is a for loop. "let forestNumber = 0" is telling the debugger to start counting forests starting from 0. "forestNumber < areas.forests" is telling the loop to continue running as long as the number we are counting is less than the total number of forests. "forestNumber++" is just increasing forestNumber by 1 each time it finishes a cycle.
 
 5. Explain the value of the `database` variable in the **database** module. Be as comprehensive as possible.
    > The great thing about the database variable is that it is an array that holds many different variables within one name. For this case, it is holding cattleTypes and drovers. So because it is in an array, we can call it using dot notation whenever we need a property from the array.
