@@ -82,7 +82,7 @@ Your journey will take you through the wildness of the American Midwest and acro
    > Drover is the key and drovers is the object that the key is being called from.
 
 3. In the **journey** module, there is a `journeyMaker()` function. In that function, there is a variable named `areas` which will have the value of an object. Use your debugger to show what the value of each key is on that object. Use [Loom](https://www.loom.com) to record your session.
-   > Your public Loom URL here
+   > (https://www.loom.com/share/72e3ba1f24eb46ad880509dd9c366e31?sid=6a58d4d9-17d7-41c6-b54f-792e3ff379ab)
 
 4. Also in the **journey** module, there is the following code:
    ```js
@@ -92,11 +92,13 @@ Your journey will take you through the wildness of the American Midwest and acro
    ```
    Explain this code with your best vocabulary.
    > Your answer here
-5. Explain the value of the `database` variable in the **database** module. Be as comprehensive as possible.
-   > Your answer here
-6. In the **drovers** module, there is a `hireDrovers()` function. You will notice the following code on that line - `(herdSize)`. What is that defining, and where does it get its value?
-   > Your answer here
 
+5. Explain the value of the `database` variable in the **database** module. Be as comprehensive as possible.
+   > The great thing about the database variable is that it is an array that holds many different variables within one name. For this case, it is holding cattleTypes and drovers. So because it is in an array, we can call it using dot notation whenever we need a property from the array.
+
+6. In the **drovers** module, there is a `hireDrovers()` function. You will notice the following code on that line - `(herdSize)`. What is that defining, and where does it get its value?
+   > hireDrovers is the name of the function and herdSize is the parameter. It gets it value from the numberNeeded variable.
+   
 ## When You Are Done
 
 After you have answered all the questions above, you need to push all of your code back up to Github. Follow these instructions.
